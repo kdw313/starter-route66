@@ -13,7 +13,7 @@ class Welcome extends Application
 	 * Homepage for our app
 	 */
 	public function index()
-	{
+	{   
 		$this->show(2);
 	}
 
