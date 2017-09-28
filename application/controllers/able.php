@@ -7,7 +7,11 @@
  */
 class Able extends Application{
 
+    /**
+     * index of Able.php
+     */
     public function index(){
+
         $this->show(1);
 
     }
