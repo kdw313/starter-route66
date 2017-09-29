@@ -55,5 +55,6 @@ $route['bananas/rule'] = function($fruit,$verb) {
 };
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
-//$route['i/(.*)'] = 'golf';
+//doesn't work
+//$route['i/(.*)'] = 'golf';x
 $route['i/(.*)'] = 'golf';
