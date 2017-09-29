@@ -4,11 +4,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 // the menu basics (text navbar)
 $config['menu_choices'] = array(
     'menudata' => array(
-        array('name' => 'Alpha', 'link' => '#'),
+
+        array('name' => 'Alpha', 'link' => 'able/index'),
         array('name' => 'Bravo', 'link' => '/bravo'),
         array('name' => 'Charlie', 'link' => '#'),
-        array('name' => 'Delta', 'link' => '#'),
-        array('name' => 'Echo', 'link' => 'echo/must/wehave'),
+        array('name' => 'Delta', 'link' => 'delta/force'),
+        array('name' => 'Echo', 'link' => '/echo/must/wehave'),
         array('name' => 'Foxtrot', 'link' => '#'),
         array('name' => 'Golf', 'link' => '#'),
         array('name' => 'Hotel', 'link' => '/bananas/rule'),
