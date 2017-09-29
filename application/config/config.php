@@ -5,10 +5,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $config['menu_choices'] = array(
     'menudata' => array(
 
-        array('name' => 'Alpha', 'link' => 'able/index'),
+        array('name' => 'Alpha', 'link' => '/able/index'),
         array('name' => 'Bravo', 'link' => '/bravo'),
         array('name' => 'Charlie', 'link' => '#'),
-        array('name' => 'Delta', 'link' => 'delta/force'),
+        array('name' => 'Delta', 'link' => '/delta/force'),
         array('name' => 'Echo', 'link' => '/echo/must/wehave'),
         array('name' => 'Foxtrot', 'link' => '#'),
         array('name' => 'Golf', 'link' => '#'),
